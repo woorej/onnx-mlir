@@ -11,7 +11,7 @@ https://www.notion.so/woojaejoo/Run-ONNX-Model-in-arm-architecture-12b7741d08244
 
 # Run
 you should have more than one image in your directroy  
-support model option list
+support model option list below :
 - mobilenetv2
 - mnist
 Example
