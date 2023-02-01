@@ -63,7 +63,9 @@ clang -shared "$assembly_file_name" -o "$result_file"
 echo "${onnx_mlir}/include/"
 echo "${llvm_include_path}/include/"
 
-"$cpp_compiler" --std=c++17 -O3 "$cpp_file" "$result_file" -o output -I "$onnx_mlir"/include/ -I "$llvm_include_path"/include/ -L "$onnx_mlir"/src/Runtime/*.cpp
+
+
+#$cpp_compiler" --std=c++17 -O3 "$cpp_file" "$result_file" -o output -I "$onnx_mlir"/include/ -I "$llvm_include_path"/include/ -L "$onnx_mlir"/src/Runtime/*.cpp
 
 
 # need to add function declaration part. 
