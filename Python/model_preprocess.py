@@ -37,7 +37,7 @@ class Mnist() :
         for binlist in binlists :
             print(binlist)
             with open(binlist,'rb') as f :
-                array = np.fromfile(f, dtpye=np.float32)
+                array = np.fromfile(f, dtype=np.float32)
                 print(array.shape)
 
     def get_image(self, image_dirs) :
