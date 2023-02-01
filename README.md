@@ -10,7 +10,7 @@ https://www.notion.so/woojaejoo/Run-ONNX-Model-in-arm-architecture-12b7741d08244
 `test_mobilenet.cpp` : inference all files for mobilenetv2  
 
 # Run
-you should have more than one image in your directroy
+you should have more than one image in your directroy  
 support model option list
 - mobilenetv2
 - mnist
