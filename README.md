@@ -14,6 +14,7 @@ you should have more than one image in your directroy
 support model option list below :
 - mobilenetv2
 - mnist  
+
 Example
 ```
 $ python3 model_preprocess.py --model {model} --imagedir {image_dir}
