@@ -7,7 +7,7 @@ https://www.notion.so/woojaejoo/Run-ONNX-Model-in-arm-architecture-12b7741d08244
 `read_and_check_binary_file_size.cpp` : Read a binary file and check   
 `run.cpp` : Inferece only single image   
 `test_mnist.cpp` : Inference all files for mnist  
-`test_mobilenet.cpp` : inference all files for mobilenetv2  
+`test_mobilenet.cpp` : Inference all files for mobilenetv2  
 
 # Run
 you should have more than one image in your directroy  
