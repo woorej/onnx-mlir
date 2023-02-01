@@ -18,7 +18,7 @@ $ python3 model_preprocess.py --model mnist --imagedir ./data
 ```
 
 # run shellscript 
-Customize onnx-mlir to run in arm64 
+Customize onnx-mlir to run in arm64  
 This shellscript can run where llvm-project and onnx-mlir is cloned. Also, llvm-project must be built for usage.
 ```
 $ run.sh <path/to/onnx-mlir> <path/to/llvm_project/> <path/to/onnx_file> <path/to/cpp_main_file>
