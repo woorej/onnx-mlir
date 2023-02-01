@@ -13,7 +13,7 @@ https://www.notion.so/woojaejoo/Run-ONNX-Model-in-arm-architecture-12b7741d08244
 you should have more than one image in your directroy  
 support model option list below :
 - mobilenetv2
-- mnist
+- mnist  
 Example
 ```
 $ python3 model_preprocess.py --model {model} --imagedir {image_dir}
