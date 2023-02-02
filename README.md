@@ -6,8 +6,8 @@
 `test_mobilenet.cpp` : Inference all files for mobilenetv2  
 
 # Convert image format to binary
-You should have at least one iamge in the directory.
-support model option list below :
+You should have at least one image in the directory.
+model option list below :
 - mobilenetv2
 - mnist  
 
