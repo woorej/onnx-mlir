@@ -33,5 +33,5 @@ This shellscript is ongoing since onnx-mlir is not fully available in arm64.
 4. compile with g++ with required include paths.
 5. run the output generated from compiled result.
 
-Important Thing : Current sh file is only handling before g++ compile(line 4) 
+Important Thing : Current sh file is only handling before g++ compile(line 4)  
 Users need to manually do line 4 and 5 until bug fix.
